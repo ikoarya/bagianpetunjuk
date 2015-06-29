@@ -1,9 +1,10 @@
 <html>
 <head>
 	<link rel="stylesheet" type="text/css" href="css/stylepetunjuk.css">
+	<script type="text/javascript" src="js/petunjuk.js"></script>
 	
 </head>
-<body>
+<body onload="main(0)">
 		
 	<table border="0" width="100%" align="center" height="100%">
 		<tr>
@@ -12,13 +13,13 @@
 
 
 		<tr>
-			<td valign="top" style="padding-top:10%;" width="20%" height="50%" id="nav"> <a href="petunjuk5.html"><img width="30%" src="img/prev.png"> </a></td>
-			<td width="60%" height="50%" id="gambar"> <img class="gambarPetunjuk" src="img/1.png"> </td>
-			<td valign="top" style="padding-top:10%;" width="20%" height="50%" id="nav"> <a href="petunjuk2.html"><img width="30%" src="img/next.png"> </a></td>
+			<td valign="top" style="padding-top:10%;" width="20%" height="50%" id="nav" onclick="mundur()"><img width="30%" src="img/prev.png"></td>
+			<td width="60%" height="50%" id="gambar">  </td>
+			<td valign="top" style="padding-top:10%;" width="20%" height="50%" id="nav" onclick="maju()"> <img width="30%" src="img/next.png"></td>
 		</tr>
 
 		<tr class="footer1">
-			<td height="30%" width="100%" colspan="3"> Alur Pendaftaran Pengguna </td>
+			<td height="30%" width="100%" colspan="3" id="deskripsi"> Alur Pendaftaran Pengguna </td>
 		</tr>
 		
 	</table>
